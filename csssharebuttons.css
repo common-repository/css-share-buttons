@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : १६ नवंबर, २०१४, ४:४६:३४ अपराह्न
+    Author     : purab
+*/
+
+.container_share {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.container_share p {
+    font-family: Inconsolata,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0!important;
+    padding: 0!important;
+    color: #fff!important;
+}
+
+.container_share a {
+    text-decoration: none!important;
+}
+
+.button_purab_share {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 40px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    zoom: 1;
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=2, Color=#33000000, Positive=true);   
+}
+
+.button_purab_share:hover {
+    text-decoration: none;
+    color: #eeeaee;
+}
+
+.button_purab_share p {
+    font-size: 13px !important;
+    font-style: normal;
+}
+
+.button_purab_share span {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    font-size: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 10px 6px -6px grey;
+}
+
+.button_purab_share.twitter {
+    background: #00acee;
+}
+
+.button_purab_share.facebook {
+    background: #3b5998;
+}
+
+.button_purab_share.google-plus {
+    background: #db4a39;
+}
+
+.button_purab_share.linkedin {
+    background: #0e76a8;
+}
+
+.text-center {
+    text-align: center;
+}
+@media only screen and (max-width: 479px) {
+    .button_purab_share { 
+        padding-left: 16px;
+    }
+
+    .button_purab_share p {
+        display:none;
+    }   
+}
+
+.floating_container_share{
+	position:fixed;
+	width:50px;
+	top:30%;
+	left:0px;
+ 
+}
+.floating_container_share .button_purab_share{
+    padding-left:0px;
+    margin:0px;
+        height: 40px;
+        width: 25px;
+        padding-top:10px;
+}
+
+.floating_container_share .button_purab_share:hover{
+    
+        width: 35px;
+        
+}
+
+.floating_container_share span i{
+    padding-left:10px;
+    font-size: 20px;
+}
+.floating_container_share span{
+      position: static;
+    border:none;
+    padding:0px 0px;
+    box-shadow:none;
+}
